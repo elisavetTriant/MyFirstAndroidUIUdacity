@@ -77,7 +77,7 @@ The dimens.xml resource looks like this:
 <resources>
     <dimen name="textView_messages_padding">20dp</dimen>
     <dimen name="textView_credits_padding">10dp</dimen>
-    <dimen name="textView_messages_fontSize">24dp</dimen>
+    <dimen name="textView_messages_fontSize">24sp</dimen>
     <dimen name="textView_credits_fontSize">12sp</dimen>
 </resources>
 ```
@@ -106,3 +106,4 @@ The styles.xml resource looks like this:
 </resources>
 ```
 More on Resources on [https://developer.android.com/guide/topics/resources](https://developer.android.com/guide/topics/resources)
+[https://guides.codepath.com/android/Understanding-App-Resources](https://guides.codepath.com/android/Understanding-App-Resources)
