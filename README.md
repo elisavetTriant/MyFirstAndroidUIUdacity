@@ -4,7 +4,7 @@ This is a small Android Studio 3 project that outputs a greeting card. This was 
 
 This is how the Card looks like on Android Studio 3:
 
-![Greeting Card](https://github.com/elisavetTriant/MyFirstAndroidUIUdacity/blob/master/screenshots/androidstudio_myfirstUIUdacity.png "Greeting Card")
+![Greeting Card](https://github.com/elisavetTriant/MyFirstAndroidUIUdacity/blob/master/screenshots/androidstudio_myfirstUIUdacity_updated.png "Greeting Card")
 
 And here is what the layout xml code looks like (file app->src->main->res->layout->activity_main.xml):
 ```xml
@@ -16,13 +16,13 @@ And here is what the layout xml code looks like (file app->src->main->res->layou
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark"
-    tools:context="co.elisavet.udacitymyfirstui.MainActivity">
+    tools:context="co.elisavet.myfirstandroiduiudacity.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/wish"
-        android:padding="16dp"
+        android:padding="@dimen/textView_messages_padding"
         style="@style/messagesTextStyle" />
 
 
@@ -38,7 +38,7 @@ And here is what the layout xml code looks like (file app->src->main->res->layou
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:text="@string/message"
-        android:padding="16dp"
+        android:padding="@dimen/textView_messages_padding"
         style="@style/messagesTextStyle" />
 
 
@@ -46,7 +46,7 @@ And here is what the layout xml code looks like (file app->src->main->res->layou
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/credits"
-        android:padding="10dp"
+        android:padding="@dimen/textView_credits_padding"
         android:background="@color/creditsbackgroundColor"
         style="@style/creditsTextStyle" />
 
@@ -72,7 +72,15 @@ The colors.xml resource looks like this:
     <color name="creditsbackgroundColor">#999999</color>
 </resources>
 ```
-
+The dimens.xml resource looks like this:
+```xml
+<resources>
+    <dimen name="textView_messages_padding">20dp</dimen>
+    <dimen name="textView_credits_padding">10dp</dimen>
+    <dimen name="textView_messages_fontSize">24dp</dimen>
+    <dimen name="textView_credits_fontSize">12sp</dimen>
+</resources>
+```
 The styles.xml resource looks like this:
 ```xml
 <resources>
@@ -87,13 +95,13 @@ The styles.xml resource looks like this:
     <style name="messagesTextStyle">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">@dimen/textView_messages_fontSize</item>
     </style>
 
     <style name="creditsTextStyle">
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">@dimen/textView_credits_fontSize</item>
     </style>
 </resources>
 ```
