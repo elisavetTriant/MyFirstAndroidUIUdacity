@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/wish"
-        android:padding="16dp"
+        android:padding="@dimen/textView_messages_padding"
         style="@style/messagesTextStyle" />
 
 
@@ -28,7 +28,7 @@
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:text="@string/message"
-        android:padding="16dp"
+        android:padding="@dimen/textView_messages_padding"
         style="@style/messagesTextStyle" />
 
 
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/credits"
-        android:padding="10dp"
+        android:padding="@dimen/textView_credits_padding"
         android:background="@color/creditsbackgroundColor"
         style="@style/creditsTextStyle" />
 
