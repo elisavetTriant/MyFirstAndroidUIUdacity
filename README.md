@@ -6,6 +6,12 @@ This is how the Card looks like on Android Studio 3:
 
 ![Greeting Card](https://github.com/elisavetTriant/MyFirstAndroidUIUdacity/blob/master/screenshots/androidstudio_myfirstUIUdacity_updated.png "Greeting Card")
 
+And this is what the UI looks like on my device (tablet), portrait and landscape:
+
+![Greeting Card - Portrait](https://github.com/elisavetTriant/MyFirstAndroidUIUdacity/blob/master/screenshots/myFirstUIUdacity-portrait.jpg  "Greeting Card Portrait")
+
+![Greeting Card - Landscape](https://github.com/elisavetTriant/MyFirstAndroidUIUdacity/blob/master/screenshots/myFirstUIUdacity-landscape.jpg  "Greeting Card Landscape")
+
 And here is what the layout xml code looks like (file app->src->main->res->layout->activity_main.xml):
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -105,5 +111,7 @@ The styles.xml resource looks like this:
     </style>
 </resources>
 ```
-More on Resources on [https://developer.android.com/guide/topics/resources](https://developer.android.com/guide/topics/resources)
-[https://guides.codepath.com/android/Understanding-App-Resources](https://guides.codepath.com/android/Understanding-App-Resources)
+More resources 
+* [https://developer.android.com/guide/topics/resources](https://developer.android.com/guide/topics/resources)
+* [https://guides.codepath.com/android/Understanding-App-Resources](https://guides.codepath.com/android/Understanding-App-Resources)
+* [https://material.io/guidelines/layout/units-measurements.html#](https://material.io/guidelines/layout/units-measurements.html#)
