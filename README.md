@@ -115,3 +115,5 @@ More resources
 * [https://developer.android.com/guide/topics/resources](https://developer.android.com/guide/topics/resources)
 * [https://guides.codepath.com/android/Understanding-App-Resources](https://guides.codepath.com/android/Understanding-App-Resources)
 * [https://material.io/guidelines/layout/units-measurements.html#](https://material.io/guidelines/layout/units-measurements.html#)
+* [https://developer.android.com/guide/topics/resources/providing-resources.html](https://developer.android.com/guide/topics/resources/providing-resources.html)
+* [https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml.html](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml.html)
