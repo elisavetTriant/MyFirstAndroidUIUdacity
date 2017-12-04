@@ -112,6 +112,10 @@ The styles.xml resource looks like this:
 </resources>
 ```
 More resources 
+* [https://developer.android.com/training/basics/firstapp/creating-project.html](https://developer.android.com/training/basics/firstapp/creating-project.html)
+* [https://developer.android.com/training/basics/firstapp/running-app.html](https://developer.android.com/training/basics/firstapp/running-app.html)
+* [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
+* [https://developer.android.com/training/basics/firstapp/starting-activity.html](https://developer.android.com/training/basics/firstapp/starting-activity.html)
 * [https://developer.android.com/guide/topics/resources](https://developer.android.com/guide/topics/resources)
 * [https://guides.codepath.com/android/Understanding-App-Resources](https://guides.codepath.com/android/Understanding-App-Resources)
 * [https://material.io/guidelines/layout/units-measurements.html#](https://material.io/guidelines/layout/units-measurements.html#)
