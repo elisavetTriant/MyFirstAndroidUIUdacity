@@ -100,13 +100,13 @@ The styles.xml resource looks like this:
 
     <style name="messagesTextStyle">
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
         <item name="android:textSize">@dimen/textView_messages_fontSize</item>
     </style>
 
     <style name="creditsTextStyle">
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
         <item name="android:textSize">@dimen/textView_credits_fontSize</item>
     </style>
 </resources>
