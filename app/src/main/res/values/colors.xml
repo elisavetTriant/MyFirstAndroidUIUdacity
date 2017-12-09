@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#512da8</color>
+    <color name="colorPrimaryDark">#4527a0</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="creditsbackgroundColor">#999999</color>
+    <color name="creditsBackgroundColor">#d1c4e9</color>
+    <color name="LayoutBackgroundColor">#512da8</color>
 </resources>
