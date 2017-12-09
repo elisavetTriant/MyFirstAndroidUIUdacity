@@ -8,10 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="LayoutStyles">
-        <item name="android:background">@color/LayoutBackgroundColor</item>
-    </style>
-
     <style name="TextViewsMessagesStyle">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>

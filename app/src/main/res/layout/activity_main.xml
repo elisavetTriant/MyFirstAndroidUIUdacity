@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    style="@style/LayoutStyles"
+    android:background="@color/LayoutBackgroundColor"
     tools:context="co.elisavet.myfirstandroiduiudacity.MainActivity">
 
     <TextView
